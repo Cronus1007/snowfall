@@ -86,7 +86,7 @@ particlesJS(
       detect_on: "canvas",
       events: {
         onhover: {
-          enable: false,
+          enable: true,
           mode: "repulse",
         },
         onclick: {
@@ -110,10 +110,10 @@ particlesJS(
           speed: 3,
         },
         repulse: {
-          distance: 200,
+          distance: 70,
         },
         push: {
-          particles_nb: 4,
+          particles_nb: 100,
         },
         remove: {
           particles_nb: 2,
